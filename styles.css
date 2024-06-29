@@ -309,6 +309,7 @@ footer a {
 
 .about-info{
     max-width: 720px;
+    width: 100%;
 }
 .about-info .main-head h1{
     font-size: 15px;
