@@ -69,35 +69,6 @@ nav {
     margin-top: -5px;
 }
 
-/* Banner images */
-
-
-/* Banner slider */
-.slider-wrapper {
-    position: relative;
-    max-width: 100%;
-    overflow: hidden;
-    border-radius: 19px;
-    margin-top: 10px;
-}
-
-.slider {
-    display: flex;
-    transition: transform 0.11s ease-in-out;
-}
-
-.slider img {
-    min-width: 100%;
-    transition: opacity 1s ease-in-out;
-}
-
-.slider img {
-    display: block;
-}
-
-
-
-
 .menu a {
     margin-left: 20px;
     color: #fff;
