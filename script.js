@@ -29,29 +29,7 @@ function nextSlide() {
 }
 
 function startSlider() {
-    setInterval(nextSlide, 3000); // Change image every 3 seconds
+    setInterval(nextSlide, 1000); // Change image every 3 seconds
 }
 
 document.addEventListener('DOMContentLoaded', startSlider);
-
-
-
-
-document.addEventListener('DOMContentLoaded', function() {
-    const showMoreButtons = document.querySelectorAll('.show-more');
-
-    showMoreButtons.forEach(button => {
-        button.addEventListener('click', function() {
-            const blogContent = this.previousElementSibling;
-            const moreContent = blogContent.querySelector('.more-content');
-
-            if (moreContent.style.display === 'none' || moreContent.style.display === '') {
-                moreContent.style.display = 'inline';
-                this.textContent = 'Show less';
-            } else {
-                moreContent.style.display = 'none';
-                this.textContent = 'Show more';
-            }
-        });
-    });
-});
