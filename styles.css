@@ -59,15 +59,7 @@ nav {
     width: 130px;
 }
 
-/* Banner container */
-.banner {
-    position: relative;
-    width: 100%;
-    max-width: 720px;
-    overflow: hidden;
-    border-radius: 19px;
-    margin-top: -5px;
-}
+
 
 .menu a {
     margin-left: 20px;
@@ -146,6 +138,9 @@ main {
     width: 100%;
     border-radius: 19px;
     margin-top: 10px;
+    height:200px
+    max-width: 720px;
+    overflow: hidden;
 }
 
 .register-main-btn {
