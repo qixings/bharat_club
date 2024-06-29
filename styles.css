@@ -196,6 +196,7 @@ main {
     cursor: pointer;
     text-decoration: none;
     font-size: 14px;
+    width: 280px;
 }
 
 .app-info table {
