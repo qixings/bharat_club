@@ -283,8 +283,8 @@ footer a {
     margin: 0 10px;
     text-decoration: none;
     display: flex;
-    font-size: 12px;
-    padding-bottom: 8px;
+    font-size: 14px;
+    padding-bottom: 10px;
 }
 
 /* Hamburger Menu Overlay */
