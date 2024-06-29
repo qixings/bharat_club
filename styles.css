@@ -142,7 +142,7 @@ main {
     font-size: 12px;
 }
 
-.banner-image active {
+.banner-image{
     width: 100%;
     border-radius: 19px;
     margin-top: 10px;
