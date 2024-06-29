@@ -140,13 +140,6 @@ main {
     align-items: center;
 }
 
-.fa-bullhorn {
-    color: rgb(5, 117, 208);
-    font-size: 15px;
-    position: relative;
-    left: -5px;
-}
-
 
 .app-info {
     background-color: #fff;
@@ -233,14 +226,14 @@ h2 {
 }
 
 .tg1 {
-    font-size: 39px;
+    width: 39px;
     left: 0px;
     position: relative;
     padding-right: 10px;
 }
 
 .tg2 {
-    font-size: 39px;
+    width: 39px;
     left: 0px;
     position: relative;
     padding-right: 5px;
