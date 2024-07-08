@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-<meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us - Bharat Club</title>
     <meta name="description" content="Contact Bharat Club for inquiries, support, or partnership opportunities. Reach out to us to learn more about our color trading platform and how you can join or collaborate with us.">
@@ -10,15 +10,35 @@
     <meta name="author" content="Bharat Club">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="favicon.webp" type="image/x-icon" async>
-    <!-- Google tag (gtag.js) -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-WS12L49Z2W"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Bharat Club",
+      "url": "https://sattabharatclub.com",
+      "logo": "https://sattabharatclub.com/bharatclub.webp",
+      "sameAs": [
+        "https://t.me/bharatclubchannel",
+        "https://t.me/bharatclubchat"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+1-800-123-4567",
+        "contactType": "Customer Service",
+        "url": "https://t.me/ronypatelvip"
+      }
+    }
+    </script>
 
-  gtag('config', 'G-WS12L49Z2W');
-</script>
+    <!-- Google tag (gtag.js) -->
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-WS12L49Z2W"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-WS12L49Z2W');
+    </script>
 </head>
 
 <body>
@@ -27,20 +47,12 @@
             <div class="logo">
                 <a href="index.html"><img src="bharatclub.webp" alt="Bharat Club Logo"></a>
             </div>
-
-
-            
-            <div class="top-buttons"><button onclick="window.location.href='https://bharatclub.bet/#/login'"
-                    class="Login-button"><strong>LOGIN</strong></button>
-                <button onclick="window.location.href='https://bharatclub.bet/#/register?invitationCode=14556564825'"
-                    class="Login-button"><strong>REGISTER</strong></button>
+            <div class="top-buttons">
+                <button onclick="window.location.href='https://bharatclub.bet/#/login'" class="Login-button"><strong>LOGIN</strong></button>
+                <button onclick="window.location.href='https://bharatclub.bet/#/register?invitationCode=14556564825'" class="Login-button"><strong>REGISTER</strong></button>
             </div>
-
         </nav>
     </header>
-
-
-
 
     <main>
         <section class="contact-page">
@@ -66,11 +78,13 @@
             </div>
         </section>
     </main>
+
     <footer class="contact-footer">
         <div class="copyr">
-            <p>Copyright © 2024 Bharat Club </p>
+            <p>Copyright © 2024 Bharat Club</p>
         </div>
     </footer>
+
     <div class="hamburger-menu-overlay">
         <ul>
             <li style="position: relative; display: flex; justify-content: flex-end; right: 5px; font-size: 25px;"><button class="close-menu"><strong style="font-size: 25px;">X</strong></button></li>
