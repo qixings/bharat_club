@@ -22,6 +22,24 @@
         gtag('config', 'G-WS12L49Z2W');
     </script>
 
+    <!-- Event snippet for Other conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-16637762520/p9kECOW3v8EZENi3wP09',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
     <!-- Structured Data for SEO -->
     <script type="application/ld+json">
     {
@@ -47,7 +65,7 @@
             </div>
             <div class="top-buttons">
                 <button onclick="window.location.href='https://bharatclub.bet/#/login'" class="Login-button"><strong>LOGIN</strong></button>
-                <button onclick="window.location.href='https://bharatclub.bet/#/register?invitationCode=14556564825'" class="Login-button"><strong>REGISTER</strong></button>
+                <button onclick="return gtag_report_conversion('https://bharatclub.bet/#/register?invitationCode=14556564825');" class="Login-button"><strong>REGISTER</strong></button>
             </div>
         </nav>
     </header>
