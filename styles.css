@@ -17,7 +17,8 @@
 }
 
 .popup-content {
-    background-color: #fefefe;
+    background: url('path/to/your/ADW.jpg') no-repeat center center; /* Background image */
+    background-size: cover; /* Cover the entire div */
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
     border: 1px solid #888;
@@ -25,10 +26,11 @@
     max-width: 600px; /* Maximum width */
     text-align: center; /* Center text */
     border-radius: 10px; /* Rounded corners */
+    color: #fff; /* Text color */
 }
 
 .close-btn {
-    color: #aaa;
+    color: #fff;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -36,7 +38,7 @@
 
 .close-btn:hover,
 .close-btn:focus {
-    color: black;
+    color: #bbb;
     text-decoration: none;
     cursor: pointer;
 }
