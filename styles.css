@@ -27,6 +27,7 @@
     text-align: center; /* Center text */
     border-radius: 10px; /* Rounded corners */
     color: #fff; /* Text color */
+    height: 50%;
 }
 
 .close-btn {
