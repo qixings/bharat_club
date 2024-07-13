@@ -17,7 +17,7 @@
 }
 
 .popup-content {
-    background: url('path/to/your/ADW.jpg') no-repeat center center; /* Background image */
+    background: url('ADW.jpg') no-repeat center center; /* Background image */
     background-size: cover; /* Cover the entire div */
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
