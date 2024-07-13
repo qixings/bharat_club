@@ -28,6 +28,7 @@
     border-radius: 10px;
     color: #fff;
     max-height: 361px;
+    margin-top:308px;
 }
 
 .close-btn {
@@ -35,6 +36,7 @@
     float: right;
     font-size: 28px;
     font-weight: bold;
+    margin-top: 11px;
 }
 
 .close-btn:hover,
